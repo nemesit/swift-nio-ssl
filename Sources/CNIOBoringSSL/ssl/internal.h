@@ -8,6 +8,9 @@
  * in the file LICENSE in the source distribution or at
  * https://www.openssl.org/source/license.html
  */
+#ifndef WIN32_LEAN_AND_MEAN
+#define WIN32_LEAN_AND_MEAN
+#endif
 
 #ifndef OPENSSL_HEADER_SSL_INTERNAL_H
 #define OPENSSL_HEADER_SSL_INTERNAL_H
